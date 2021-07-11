@@ -3,6 +3,7 @@
 }
 
 .places article {
+    position: relative;
     display: inline-block;
     width: 390px;
     padding: 20px;
@@ -12,6 +13,15 @@
     text-align: center;
 }
 
+.places article h2 {
+    display: inline-block;
+}
+
 .places article > h2 {
     font-size: 30px;
+}
+
+.places article:last-child {
+    position: relative;
+    left: 237px;
 }
