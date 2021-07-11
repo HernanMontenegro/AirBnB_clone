@@ -8,8 +8,7 @@
 
 .filters button {
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 12px;
     margin: auto 0;
     right: 30px;
     font-size: 18px;
