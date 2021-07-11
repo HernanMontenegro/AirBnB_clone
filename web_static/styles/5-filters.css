@@ -1,5 +1,7 @@
 .locations, .amenities {
     display: inline-block;
+    position: relative;
+    box-sizing: border-box;
     padding-top: 18px;
     padding-left: 50px;
     height: 100%;

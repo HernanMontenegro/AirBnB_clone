@@ -1,0 +1,41 @@
+.popover {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 71px;
+    background: #FAFAFA;
+    width: 210px;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin: 0;
+    list-style: none;
+}
+
+.popover ul {
+    list-style: none;
+}
+
+.popover ul > li {
+    margin: 5px 0;
+}
+
+.popover h2 {
+    font-size: 16px;
+}
+
+.popover > li:nth-child(1) {
+    margin-top: 20px;
+}
+
+.popover > li:last-child {
+    margin-bottom: 20px;
+}
+
+.popover > li {
+    margin: 10px 0;
+}
+
+.amenities > .popover {
+    display: block;
+    left: -4px;
+}
